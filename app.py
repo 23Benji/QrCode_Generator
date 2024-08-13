@@ -15,6 +15,7 @@ def generate_qrcode(text):
     # Save the QR code in the "QrCodes" folder
     filename = os.path.join("QrCodes", f"{text.replace(' ', '_')}.png")
     img = qrcode.make(text)
+    filename.replace('/','')
     img.save(filename)
 
     # Load and display the image
