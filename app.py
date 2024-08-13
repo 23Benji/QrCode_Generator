@@ -8,14 +8,13 @@ import glob
 
 # Function to create QR code and save in "QrCodes" folder
 def generate_qrcode(text):
-
     # Create the "QrCodes" directory if it doesn't exist
     os.makedirs("QrCodes", exist_ok=True)
 
     # Save the QR code in the "QrCodes" folder
     filename = os.path.join("QrCodes", f"{text.replace(' ', '_')}.png")
     img = qrcode.make(text)
-    filename.replace('/','')
+    filename.replace('/', '')
     img.save(filename)
 
     # Load and display the image
