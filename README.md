@@ -2,7 +2,7 @@
 
 This is a simple QR Code Generator built with Python's `tkinter` library and styled using the `ttkbootstrap` theme. The application allows users to create custom QR codes from text input and save them as PNG files in a folder named `QrCodes`. It also provides an option to delete all saved QR codes with a single click.
 
-![QRCode Generator Screenshot](screenshot.png)
+![Screenshot](img/screenshot.png)
 
 ## Features
 
