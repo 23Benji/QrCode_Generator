@@ -56,12 +56,6 @@ This is a simple QR Code Generator built with Python's `tkinter` library and sty
 
     *!Atention!* Changes in the `QrCodes` folder will be only seen after the program is closed!
 
-## Screenshots
-
-![Screenshot 1](screenshot1.png)
-
-![Screenshot 2](screenshot2.png)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
