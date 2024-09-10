@@ -41,6 +41,7 @@ app.resizable(False, False)
 
 input_Var = tk.StringVar()
 
+
 # Create the UI elements with improved styling
 txt_Label = ttk.Label(app, text='Welcome to the QRCode Generator!',
                       font=('Calibri', 22, 'bold'),
